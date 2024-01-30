@@ -1,0 +1,19 @@
+.navbar-brand{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.navbar-nav li a{
+    font-size: 20px;
+    color: rgb(22, 21, 21);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    overflow-x: hidden;
+}
+.carousel-item{
+  
+        display: none;
+        position: relative;
+        transition: (.1s ease-in-out left);
+    
+}

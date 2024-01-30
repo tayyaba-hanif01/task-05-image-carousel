@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  bg-light sticky-top">
+        <span class="navbar-text mx-5">
+            <a class="navbar-brand text-danger" href=""><span class="text-dark">Shopping</span>City</a>
+        </span>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mynavbar" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto mx-5">
+            <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="">About</a></li>
+            <li class="nav-item" ><a class="nav-link" href="">Collection</a> </li>
+            <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="">Signin</a></li> -->
+        </ul>
+    </div>
+      </nav>
+    <!-- -----------------------carousel -->
+    <div class="container-fluid">
+        <div class="row">
+       
+            <div class="col-md-12">
+          <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="mycaro">
+            <div class="carousel-inner">
+                <!-- ----------------------1-------------- -->
+                <div class="carousel-item active">
+                    <img src="images/img1.jpg" alt="" class="d-block w-100">
+                  
+                </div>
+                <!-- ----------------------2-------------- -->
+                <div class="carousel-item">
+                    <img src="images/img2.jpg" alt="" class="d-block w-100">
+                    
+                </div>
+                <!-- ----------------------3-------------- -->
+                <div class="carousel-item ">
+                    <img src="images/Men_s-Sweater (1).jpg" alt="" class="d-block w-100">
+                 
+                </div>
+
+                <!-- 4 -->
+                <div class="carousel-item ">
+                    <img src="images/img3.jpg" alt="" class="d-block w-100">
+                 
+                </div>
+                 <!-- -----------------------button------------------------- -->
+                 
+                 <button class="carousel-control-prev" data-bs-target="#mycaro"  data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                 </button>
+                 <button class="carousel-control-next"  data-bs-target="#mycaro"  data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                 </button>
+    
+                      <!-- -------------indicators----------------- -->
+    
+                   <div class="carousel-indicators">
+                    <button class="active" data-bs-target="#mycaro"  data-bs-slide-to="0"></button>
+                    <button  data-bs-target="#mycaro"  data-bs-slide-to="1"></button>
+                    <button  data-bs-target="#mycaro"  data-bs-slide-to="2"></button>
+                    <button  data-bs-target="#mycaro"  data-bs-slide-to="3"></button>
+                    
+                   </div>
+    
+    
+            </div>
+          </div>
+            </div>
+          </div>
+    
+    
+            </div>
+            <!-- <script>
+                // Handle Bootstrap carousel slide event
+                $('.carousel').carousel({
+                    interval: 100
+                });
+            </script> -->
+</body>
+</html>
